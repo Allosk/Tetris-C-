@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="App">
+    <Position X="14.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAACAYAgAgI=</HashCode>
+      <FileName>src\App.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game">
+    <Position X="6.75" Y="1.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="Game::GameState" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>src\Game.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAYAAARAUCAADgBAAAAAAQAAAQiABEAAACACAAkQAIA=</HashCode>
+      <FileName>src\Game.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renderer">
+    <Position X="4.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgFAEAACEAABAQAAAAAAAAQAgAAAAAAACAAABAAIA=</HashCode>
+      <FileName>src\Renderer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="uint2">
+    <Position X="12.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAAAAAA=</HashCode>
+      <FileName>src\Game.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="int2">
+    <Position X="12.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAAAAAA=</HashCode>
+      <FileName>src\Game.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Field">
+    <Position X="8.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAQAQAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\Game.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Tetromino">
+    <Position X="8.75" Y="3" Width="1.5" />
+    <NestedTypes>
+      <Typedef Name="Tetromino::BlockCoords" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>src\Game.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAABAACAAAA=</HashCode>
+      <FileName>src\Game.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TetrominoInstance">
+    <Position X="10.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAACAAAAAAAEAAAA=</HashCode>
+      <FileName>src\Game.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="GameInput">
+    <Position X="10.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BCAARAAIAAAgAAAAABAAAAAAAQAAgAAAAAAAAEAAAgQ=</HashCode>
+      <FileName>src\Game.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="TetrominoType">
+    <Position X="8.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEsAAgwAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\Game.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
